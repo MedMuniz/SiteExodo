@@ -1,0 +1,87 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Cor de fundo cinza claro */
+    background-image: url(exodo_logo.png);
+}
+
+/* Estilo para o cabeçalho e o menu de navegação */
+header {
+    background-color: #1e90ff; /* Cor de fundo azul */
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+   
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+/* Estilo para as opções do menu */
+nav a {
+    text-decoration: none;
+    color: white; /* Cor do texto branco */
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #1e90ff; /* Cor de fundo original */
+    transition: background-color 0.3s; /* Transição suave da cor de fundo */
+}
+nav a:hover {
+    background-color: #005ba3; /* Cor de fundo mais escura quando o mouse passa por cima */
+}
+
+
+/* Estilo para as seções de conteúdo */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Estilo para o formulário */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff; /* Cor de fundo branca */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para o botão Enviar no formulário */
+button {
+    background-color: #1e90ff; /* Cor de fundo azul */
+    color: white; /* Cor do texto branco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Efeito de hover para o botão Enviar */
+button:hover {
+    background-color: #005ba3; /* Cor de fundo mais escura quando o mouse passa por cima */
+}
